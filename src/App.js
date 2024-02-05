@@ -10,6 +10,7 @@ import IndustryExperience from "./components/Industry Experience/IndustryExperie
 import Competitions from "./components/Competition/Competitions";
 import ProgrammingSkills from "./components/Professional Skillset/ProgrammingSkills";
 import Certifications from "./components/Certifications/Certifications";
+import Experience from "./components/Experience/Experience";
 
 function App() {
   const theme = useSelector((state) => state.theme);
@@ -23,6 +24,7 @@ function App() {
       <Projects />
       <Certifications />
       <ProgrammingSkills />
+      <Experience />
       <Footer />
     </div>
   );

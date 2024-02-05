@@ -10,7 +10,7 @@ function College(props) {
     return (
         <div>
         <h1 style={{ color: nonThemeColor, fontSize: "2.5rem", marginTop: "3rem" }}>
-            My Education
+            Education
         </h1>
 
         <div id="colleges">
