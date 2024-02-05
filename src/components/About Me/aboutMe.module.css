@@ -7,7 +7,7 @@
     justify-content: space-around;
 }
 .avatar{
-    align-items: center;
+    justify-content: center;
     /* background-color: aquamarine; */
     /* width: 50%; */
 }
@@ -78,7 +78,7 @@
         flex-direction: column;
     }
     .avatar{
-        margin: 2rem 2rem 2rem 2rem;
+        margin-bottom: 2rem;
     }
     .avatar img{
         height: 15rem;
