@@ -14,7 +14,7 @@ const Certifications = (props) => {
 
     return (
         <React.Fragment>
-            <h1 style={{color:nonThemeColor}}>Certificates</h1>
+            <h1 style={{color:nonThemeColor, marginTop:"3rem"}}>Certificates</h1>
             
             <div className={classes.certificateCard}>
                 {certificationsList.map((item, index) => {

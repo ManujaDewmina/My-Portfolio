@@ -4,7 +4,6 @@ import ProjectItem from "./ProjectItem";
 import ProjectsData from "../../Data/ProjectsData";
 import SocialData from "../../Data/SocialData";
 import Button from "../Widgets/Button";
-import ProgrammingSkills from "../Professional Skillset/ProgrammingSkills";
 import { useSelector } from "react-redux";
 
 const Projects = (props) => {
@@ -18,7 +17,7 @@ const Projects = (props) => {
                     <img src={projectCoverImg} alt="" />
                 </section> */}
                 <section className={styles.projectHeader}>
-                    <h1><span style={{ color: nonThemeColor }}>My Recent </span><span style={{ color: uiColor }}>Works</span></h1>
+                    <h1><span style={{ color: nonThemeColor , fontSize:"2.8rem"}}>My Recent </span><span style={{ color: uiColor , fontSize:"2.8rem"}}>Works</span></h1>
                     {/* <div>My works makes use of vast variety of latest technology tools...</div> */}
                 </section>
             </div>
@@ -32,9 +31,6 @@ const Projects = (props) => {
                     <Button className={styles.moreProjectBtn}>More Projects</Button>
                 </a>
             </div>
-
-            <ProgrammingSkills />
-            
         </div>
     )
 };

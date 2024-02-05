@@ -14,7 +14,7 @@ function Footer(){
         <footer className="centered" style={{color:nonThemeColor}}>
             <CopyrightIcon/>
             &nbsp;{currentYear}
-            &nbsp;Coded By&nbsp;<span style={{fontWeight:"800"}}> {PersonalData.firstName}&nbsp;{PersonalData.lastName}</span>
+            &nbsp;Coded By&nbsp;<span style={{fontWeight:"600"}}> {PersonalData.firstName}&nbsp;{PersonalData.lastName}</span>
         </footer>
         </div>
     )

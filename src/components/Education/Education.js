@@ -7,8 +7,6 @@ function Education(props) {
         <Fragment>
             <div id="education">
                 <College />
-                <div style={{ height: "40px" }}></div>
-                <Certifications />
             </div>
         </Fragment>
     )

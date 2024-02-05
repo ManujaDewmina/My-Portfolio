@@ -9,7 +9,7 @@ function College(props) {
     let EducationList = EducationData.EducationList;
     return (
         <div>
-        <h1 style={{ color: nonThemeColor, fontSize: "3rem", marginTop: "3rem" }}>
+        <h1 style={{ color: nonThemeColor, fontSize: "2.5rem", marginTop: "3rem" }}>
             My Education
         </h1>
 

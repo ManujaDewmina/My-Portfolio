@@ -14,7 +14,7 @@
 .avatar img{
     margin-top: 2rem;
     margin-bottom: 2rem;
-    margin-left: 2rem;
+    margin-left: 0rem;
     height: 20rem;
     width: 30rem;
     object-fit: cover;
@@ -31,6 +31,7 @@
 }
 .contactCard div{
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font-weight: 500;
     font-size: 1.3rem;
 }
@@ -45,7 +46,7 @@
     width: 20rem;
 }
 .resumeBtn{
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 .avatar h1{
@@ -99,11 +100,11 @@
         font-size: 2.3rem;
     }
     .autoText{
-        text-align: center;
-        font-size: 1.5rem;
+        text-align: left;
+        font-size: 1.3rem;
     }
     .contactCard div{
-        margin-top: 1rem;
+        margin-top: 0rem;
         font-weight: 500;
         font-size: 1.1rem;
     }

@@ -1,0 +1,101 @@
+.competition {
+	height: 25rem;
+	width: 26%;
+	border: 2px solid;
+	border-radius: 10px;
+}
+.compImage {
+	border-radius: inherit;
+	height: 17rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.compImage svg{
+	height: 8rem;
+	width: 8rem;
+}
+.compInfo{
+	height: 7rem;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+.compInfo h1{
+	font-size: 1.4rem;
+	font-weight: 500;
+}
+.compInfo h2{
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+.overlayLink {
+	height: 8rem;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.overlayLink a{
+	font-size: 2rem;
+	font-weight: 700;
+}
+@media (max-width: 930px) {
+	.competition {
+		height: 25rem;
+		width: 20rem;
+		border-radius: 7px;
+	}
+	.compImage {
+		border-radius: inherit;
+		height: 17rem;
+	}
+	.compInfo{
+		height: 8rem;
+	}
+	.overlayLink {
+		height: 7rem;
+		border-top-left-radius: 7px;
+		border-top-right-radius: 7px;
+	}
+}
+.compBody {
+	border-radius: 0.5rem;
+	text-align: center;
+	font-weight: 800;
+}
+
+.Overlay {
+	/* display: none; */
+	position: relative;
+}
+.overlayLink {
+	/* display: none; */
+	opacity: 1;
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* transition: 0.5s ease-in-out; */
+}
+@keyframes move-in {
+	0% {
+		margin-top: -4rem;
+		opacity: 0.5;
+	}
+	100% {
+		margin-top: 0rem;
+		opacity: 1;
+	}
+}
+/* .Overlay:hover{
+    opacity: 0.5;
+} */
+.Overlay:hover .overlayLink a{
+	animation: move-in 0.2s ease-in-out 1 normal forwards;
+}
+.Overlay:hover .overlayLink {
+	opacity: 1;
+}
+.overlayLink a{
+	opacity: 0;
+}

@@ -12,12 +12,6 @@ let certificationsList=[
         platform:'HackerRank'
     },
     {
-        title:"Runners-Up - The Great Debate",
-        instructor:"Red Cloud Summit at Infotel ICT Expo 2023",
-        link:"#",
-        platform:'Orel'
-    },
-    {
         title:"Advanced Styling with Responsive design",
         instructor:"University of Michigan",
         link:"https://www.coursera.org/account/accomplishments/certificate/LLBYDL9VP37H",
@@ -59,12 +53,12 @@ let certificationsList=[
     //     link:"https://www.coursera.org/account/accomplishments/certificate/DW33N72UFYMH",
     //     platform:'Coursera'
     // },
-    // {
-    //     title:"Interactive with Javascript",
-    //     instructor:"University of Michigan",
-    //     link:"https://www.coursera.org/account/accomplishments/certificate/95FWNTPV5CB6",
-    //     platform:'Coursera'
-    // },
+    {
+        title:"Interactive with Javascript",
+        instructor:"University of Michigan",
+        link:"https://www.coursera.org/account/accomplishments/certificate/95FWNTPV5CB6",
+        platform:'Coursera'
+    },
     
 ];
 
