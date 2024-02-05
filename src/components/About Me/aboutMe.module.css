@@ -1,0 +1,131 @@
+.contactMe{
+    padding-top: 5rem;
+    margin: 0rem auto;
+    /* background-color: aqua; */
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.avatar{
+    align-items: center;
+    /* background-color: aquamarine; */
+    /* width: 50%; */
+}
+.avatar img{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    height: 20rem;
+    width: 30rem;
+    object-fit: cover;
+    /* animation: renderFromLeft 1s ease forwards; */
+}
+.contactCard{
+    margin-top: 6rem;
+    text-align: center;
+    width: 40%;
+    /* animation: renderFromRight 1s ease forwards; */
+}
+.contactCard h1{
+    font-size: 3rem;
+}
+.contactCard div{
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.contactLinks{
+    display: flex;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+}
+.resumeBtn{
+    margin-top: 2rem;
+}
+
+.avatar h1{
+    margin-left: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.avatar h2{
+    margin-left: 5rem;
+    align-items: center;
+    font-weight: 500;
+    font-size: 2.3rem;
+}
+#name{
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight:700;
+}
+.autoText{
+    margin-left: 6rem;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+@media (max-width:930px) {
+    .contactMe{
+        flex-direction: column;
+    }
+    .avatar{
+        margin: 2rem 2rem 2rem 2rem;
+    }
+    .avatar img{
+        height: 15rem;
+        width: 20rem;
+    }
+    .contactCard{
+        margin: 0rem auto;
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+    .avatar h1{
+        text-align: left;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .avatar h2{
+        text-align: left;
+        font-weight: 600;
+        font-size: 2.3rem;
+    }
+    .autoText{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .contactCard div{
+        margin-top: 1rem;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+}
+
+@keyframes renderFromLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes renderFromRight {
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

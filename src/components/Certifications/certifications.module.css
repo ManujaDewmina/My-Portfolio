@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.certificateCard{
+    display: flex;
+    margin: 2rem auto;
+    width: 90%;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.moreCertificate {
+	display: flex;
+	justify-content: center;
+}
+@media (max-width:930px) {
+    .certificateCard{
+        grid-template-columns: repeat(1,100%);
+    }    
+}

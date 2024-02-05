@@ -1,0 +1,95 @@
+.projects {
+	padding-top: 5rem;
+	margin: 0rem auto;
+	display: flex;
+	width: 98%;
+	align-items: center;
+	justify-content: space-evenly;
+	/* background-color: aqua; */
+	font-family: "Barlow Condensed";
+	/* background-color: aquamarine; */
+} 
+/* .projectImg {
+	background-color: aqua;
+} */
+.projectImg img {
+	/* max-width: 30rem;	 */
+	height: 30rem;	
+	/* animation: renderFromLeft 0.5s ease forwards; */
+}
+.projectHeader {
+	width: 40%;
+	text-align: center;
+	font-weight: 600;
+	/* animation: renderFromRight 0.5s ease forwards; */
+}
+.projectHeader h1 {
+	font-size: 3rem;
+}
+.projectHeader div {
+	margin-top: 2rem;
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+.projectHeading {
+	font-size: 3rem;
+	text-align: center;
+}
+.projectList {
+	display: flex;
+	flex-wrap: wrap;
+	/* background-color: aquamarine; */
+	gap: 1rem;
+	justify-content: center;
+	margin: 2rem auto;
+	width: 90%;
+}
+.moreProject {
+	display: flex;
+	justify-content: center;
+}
+@media (max-width: 930px) {
+	.projects {
+		margin: 0rem auto;
+		flex-direction: column;
+		width: 90%;
+	}
+	.projectImg img {
+		margin-top: 2rem;
+		height: 15rem;
+	}
+	.projectHeader {
+		width: 100%;
+	}
+	.projectHeader div {
+		margin-top: 1rem;
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width:930px) {
+    .app-content{
+        margin-top: 4rem;
+    }
+    
+}
+@keyframes renderFromLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes renderFromRight {
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

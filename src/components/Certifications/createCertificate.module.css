@@ -1,0 +1,100 @@
+.certificate {
+	height: 15rem;
+	width: 24%;
+	border: 2px solid;
+	border-radius: 10px;
+}
+.certImage {
+	border-radius: inherit;
+	height: 8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.certImage svg{
+	height: 8rem;
+	width: 8rem;
+}
+.certInfo{
+	height: 7rem;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+.certInfo h1{
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.certInfo h2{
+	font-size: 1.1rem;
+}
+.overlayLink {
+	height: 8rem;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.overlayLink a{
+	font-size: 2rem;
+	font-weight: 700;
+}
+@media (max-width: 930px) {
+	.certificate {
+		height: 13rem;
+		width: 20rem;
+		border-radius: 7px;
+	}
+	.certImage {
+		border-radius: inherit;
+		height: 7rem;
+	}
+	.certInfo{
+		height: 6rem;
+	}
+	.overlayLink {
+		height: 7rem;
+		border-top-left-radius: 7px;
+		border-top-right-radius: 7px;
+	}
+}
+.certBody {
+	border-radius: 0.5rem;
+	text-align: center;
+	font-weight: 800;
+}
+
+.Overlay {
+	/* display: none; */
+	position: relative;
+}
+.overlayLink {
+	/* display: none; */
+	opacity: 1;
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* transition: 0.5s ease-in-out; */
+}
+@keyframes move-in {
+	0% {
+		margin-top: -4rem;
+		opacity: 0.5;
+	}
+	100% {
+		margin-top: 0rem;
+		opacity: 1;
+	}
+}
+/* .Overlay:hover{
+    opacity: 0.5;
+} */
+.Overlay:hover .overlayLink a{
+	animation: move-in 0.2s ease-in-out 1 normal forwards;
+}
+.Overlay:hover .overlayLink {
+	opacity: 1;
+}
+.overlayLink a{
+	opacity: 0;
+}

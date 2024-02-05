@@ -1,0 +1,74 @@
+.mainCard{
+    text-align: center;
+    margin-top: 1rem;
+}
+.mainCard h1{
+    font-size: 2.5rem;
+}
+.skillSetCard{
+    margin: 2rem auto;
+    display: block;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+    width: 90%;
+}
+.skillItem{
+    position: relative;
+    width: 15rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.skillName{
+    display:none;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    text-align: right;
+}
+.skillItem svg{
+    height: 6rem;
+    width: 6rem;
+}
+.skillItem:hover{
+    cursor: pointer;
+}
+.skillItem:hover .skillName{
+    display: block;
+}
+.interestedArea{
+    text-align: center;
+    display: flex;
+}
+.interestedArea ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: left;
+    gap: 1rem;
+
+}
+@media (max-width:930px) {
+    .skillSetCard{
+        margin: 2rem auto;
+        gap: 1rem;
+        width: 95%;
+        /* background-color: aqua; */
+    }
+    .skillItem{
+        width: 9rem;
+        height: 7rem;
+    }
+    .skillItem svg{
+        /* background-color: aquamarine; */
+        height: 4rem;
+        width: 4rem;
+        /* color: inherit; */
+    }
+}
