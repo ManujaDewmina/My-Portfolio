@@ -6,7 +6,7 @@ const IndustryList = [
     EndYear: "Aug 2023",
     details: [
         "Research project about integration mediator framework", 
-        "Develop Integration project evaluation platform",
+        "Developed Integration project evaluation platform",
         "Tech Stack : Ballerina, React, TypeScript, Docker, GitHub, MySQL, WSO2 Asgardeo, WSO2 Choreo"
     ],
     Logo: "https://wso2.cachefly.net/wso2/sites/images/brand/downloads/wso2-inverted-logo.png"
