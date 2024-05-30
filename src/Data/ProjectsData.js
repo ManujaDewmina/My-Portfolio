@@ -1,5 +1,17 @@
 const DUMMY_PROJECTS=[
     {
+        projectTitle:'Project Argus',
+        description: 'Python, Java, C#, .NET, MSSQL, Nginx, TensorFlow, Roboflow, Supervision, Yolo, OpenCV, Docker, GCP, Google Colab',
+        sourceLink:'https://github.com/FYP-Event-tracking',
+        lastUpdated:'Ongoing'
+    },
+    {
+        projectTitle:'Code Cracker',
+        description: 'GO, Consul, TypeScript, Docker, Firebase authentication, React, PostgreSQL',
+        sourceLink:'https://github.com/ManujaDewmina/Code-Cracker',
+        lastUpdated:'Ongoing'
+    },
+    {
         projectTitle:'Job Ranker - Backend',
         description: 'LSTM sentiment analysis, Python, MySQL, Kaggle, Tensorflow, NLTK, Docker, GCP, REST API',
         sourceLink:'https://github.com/ManujaDewmina/Job-Ranker-Backend',

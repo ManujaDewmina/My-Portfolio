@@ -3,7 +3,7 @@ const EducationList = [
     collegeName: "Faculty of Engineering - University of Sri Jayewardenepura, Sri Lanka",
     courseName: "B. Sc. Eng (Hons) in Computer Engineering - Minor Specialization : Data Management",
     couseStartYear: "Nov 2019",
-    courseEndYear: "Present",
+    courseEndYear: "June 2024",
     details: [
         "Current GPA - 3.84", 
         "Dean List - semester 1, 2 and 3"

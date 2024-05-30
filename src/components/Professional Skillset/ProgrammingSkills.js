@@ -9,6 +9,8 @@ import Ballerina from '../../asset/ballerina.png';
 import DartOriginalWordmark from 'devicons-react/lib/icons/DartOriginalWordmark';
 import TypescriptOriginal from 'devicons-react/lib/icons/TypescriptOriginal';
 import CPlain from 'devicons-react/lib/icons/CPlain';
+import GoOriginalWordmark from 'devicons-react/lib/icons/GoOriginalWordmark'
+import CsharpPlain from 'devicons-react/lib/icons/CsharpPlain';
 import Html5OriginalWordmark from 'devicons-react/lib/icons/Html5OriginalWordmark';
 import Css3PlainWordmark from 'devicons-react/lib/icons/Css3PlainWordmark';
 
@@ -24,6 +26,12 @@ import GithubOriginal from 'devicons-react/lib/icons/GithubOriginal';
 import TailwindcssPlain from 'devicons-react/lib/icons/TailwindcssPlain';
 import Choreo from '../../asset/choreo.webp';
 import Asgardeo from '../../asset/asgardeo.png';
+import ConsulOriginalWordmark from 'devicons-react/lib/icons/ConsulOriginalWordmark';
+import DotnetcoreOriginal from 'devicons-react/lib/icons/DotnetcoreOriginal';
+import TensorflowLine from 'devicons-react/lib/icons/TensorflowLine';
+import MicrosoftsqlserverOriginalWordmark from 'devicons-react/lib/icons/MicrosoftsqlserverOriginalWordmark';
+import PostgresqlOriginalWordmark from 'devicons-react/lib/icons/PostgresqlOriginalWordmark';
+import NginxOriginal from 'devicons-react/lib/icons/NginxOriginal';
 
 import VscodeOriginal from 'devicons-react/lib/icons/VscodeOriginal';
 import VisualstudioPlain from '../../asset/visualstudio.png';
@@ -35,7 +43,7 @@ import AndroidstudioOriginal from 'devicons-react/lib/icons/AndroidstudioOrigina
 import KaggleOriginalWordmark from 'devicons-react/lib/icons/KaggleOriginalWordmark';
 import JupyterOriginalWordmark from 'devicons-react/lib/icons/JupyterOriginalWordmark';
 
-const languages = ["C++", "Python", "Java", "JavaScript", "Ballerina", "Dart", "TypeScript", "C", "HTML", "CSS"];
+const languages = ["C++", "Python", "Java", "JavaScript", "Ballerina", "Dart", "TypeScript", "C", "HTML", "CSS", "Go", "C#"];
 const technologies = [
     "MySQL",
     "GCP",
@@ -99,6 +107,12 @@ const ProgrammingSkills = (props) => {
                             <CPlain size={50} style={{ color: uiColor }} />
                         </div>
                         <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem" }}>
+                            <GoOriginalWordmark size={50} style={{ color: uiColor }} />
+                        </div>
+                        <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem" }}>
+                            <CsharpPlain size={50} style={{ color: uiColor }} />
+                        </div>
+                        <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem" }}>
                             <Html5OriginalWordmark size={50} style={{ color: uiColor }} />
                         </div>
                         <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem" }}>
@@ -138,6 +152,24 @@ const ProgrammingSkills = (props) => {
                         </div>
                         <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem"}}>
                             <TailwindcssPlain size={50} style={{ color: uiColor }} />
+                        </div>
+                        <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem"}}>
+                            <ConsulOriginalWordmark size={50} style={{ color: uiColor }} />
+                        </div>
+                        <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem"}}>
+                            <DotnetcoreOriginal size={50} style={{ color: uiColor }} />
+                        </div>
+                        <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem"}}>
+                            <TensorflowLine size={50} style={{ color: uiColor }} />
+                        </div>
+                        <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem"}}>
+                            <MicrosoftsqlserverOriginalWordmark size={50} style={{ color: uiColor }} />
+                        </div>
+                        <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem"}}>
+                            <PostgresqlOriginalWordmark size={50} style={{ color: uiColor }} />
+                        </div>
+                        <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem"}}>
+                            <NginxOriginal size={50} style={{ color: uiColor }} />
                         </div>
                         <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem"}}>
                             <img src={Asgardeo} alt="Asgardeo" style={{ width: "50px", height: "50px"}} />
