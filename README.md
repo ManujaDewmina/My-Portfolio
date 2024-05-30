@@ -17,3 +17,8 @@ Live - https://manujadewmina.github.io/My-Portfolio/
 - Certificates
 - Tech Skills
 - Experience
+
+## Setup
+
+1. `npm install`
+2. `npm run deploy`

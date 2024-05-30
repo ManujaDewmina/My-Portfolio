@@ -23,10 +23,10 @@ import ReactOriginal from 'devicons-react/lib/icons/ReactOriginal';
 import FirebasePlainWordmark from 'devicons-react/lib/icons/FirebasePlainWordmark';
 import BootstrapOriginalWordmark from 'devicons-react/lib/icons/BootstrapOriginalWordmark';
 import GithubOriginal from 'devicons-react/lib/icons/GithubOriginal';
-import TailwindcssPlain from 'devicons-react/lib/icons/TailwindcssPlain';
+import TailwindcssPlain from 'devicons-react/lib/icons/TailwindcssOriginal';
 import Choreo from '../../asset/choreo.webp';
 import Asgardeo from '../../asset/asgardeo.png';
-import ConsulOriginalWordmark from 'devicons-react/lib/icons/ConsulOriginalWordmark';
+import ConsulPlainWordmark from 'devicons-react/lib/icons/ConsulPlainWordmark';
 import DotnetcoreOriginal from 'devicons-react/lib/icons/DotnetcoreOriginal';
 import TensorflowLine from 'devicons-react/lib/icons/TensorflowLine';
 import MicrosoftsqlserverOriginalWordmark from 'devicons-react/lib/icons/MicrosoftsqlserverOriginalWordmark';
@@ -154,7 +154,7 @@ const ProgrammingSkills = (props) => {
                             <TailwindcssPlain size={50} style={{ color: uiColor }} />
                         </div>
                         <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem"}}>
-                            <ConsulOriginalWordmark size={50} style={{ color: uiColor }} />
+                            <ConsulPlainWordmark size={50} style={{ color: uiColor }} />
                         </div>
                         <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem"}}>
                             <DotnetcoreOriginal size={50} style={{ color: uiColor }} />
