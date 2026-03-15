@@ -3,13 +3,13 @@ const DUMMY_PROJECTS=[
         projectTitle:'Project Argus',
         description: 'Python, Java, C#, .NET, MSSQL, Nginx, TensorFlow, Roboflow, Supervision, Yolo, OpenCV, Docker, GCP, Google Colab',
         sourceLink:'https://github.com/FYP-Event-tracking',
-        lastUpdated:'Ongoing'
+        lastUpdated:'Jul 30 2024'
     },
     {
         projectTitle:'Code Cracker',
         description: 'GO, Consul, TypeScript, Docker, Firebase authentication, React, PostgreSQL',
         sourceLink:'https://github.com/ManujaDewmina/Code-Cracker',
-        lastUpdated:'Ongoing'
+        lastUpdated:'Jul 30 2024'
     },
     {
         projectTitle:'Job Ranker - Backend',
