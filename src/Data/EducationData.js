@@ -6,7 +6,7 @@ const EducationList = [
     courseEndYear: "June 2024",
     details: [
         "Current GPA - 3.84", 
-        "Dean List - semester 1, 2 and 3"
+        "Dean List - semester 1, 2, 3, 5 and 8"
     ],
   },
   {
