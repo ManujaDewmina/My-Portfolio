@@ -41,6 +41,18 @@
 .logo{
     margin-top: 2.5rem;
 }
+.positionBlock{
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+    border-left: 3px solid gray;
+}
+.description{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.6;
+}
 ul li{
     list-style-type: square;
     margin-top: 0.3rem;
