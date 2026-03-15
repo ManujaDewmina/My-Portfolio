@@ -11,6 +11,7 @@ import TypescriptOriginal from 'devicons-react/lib/icons/TypescriptOriginal';
 import CPlain from 'devicons-react/lib/icons/CPlain';
 import GoOriginalWordmark from 'devicons-react/lib/icons/GoOriginalWordmark'
 import CsharpPlain from 'devicons-react/lib/icons/CsharpPlain';
+import ScalaOriginalWordmark from 'devicons-react/lib/icons/ScalaOriginalWordmark';
 import Html5OriginalWordmark from 'devicons-react/lib/icons/Html5OriginalWordmark';
 import Css3PlainWordmark from 'devicons-react/lib/icons/Css3PlainWordmark';
 
@@ -43,7 +44,7 @@ import AndroidstudioOriginal from 'devicons-react/lib/icons/AndroidstudioOrigina
 import KaggleOriginalWordmark from 'devicons-react/lib/icons/KaggleOriginalWordmark';
 import JupyterOriginalWordmark from 'devicons-react/lib/icons/JupyterOriginalWordmark';
 
-const languages = ["C++", "Python", "Java", "JavaScript", "Ballerina", "Dart", "TypeScript", "C", "HTML", "CSS", "Go", "C#"];
+const languages = ["C++", "Python", "Java", "JavaScript", "Ballerina", "Dart", "TypeScript", "C", "HTML", "CSS", "Go", "C#", "Scala"];
 const technologies = [
     "MySQL",
     "GCP",
@@ -111,6 +112,9 @@ const ProgrammingSkills = (props) => {
                         </div>
                         <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem" }}>
                             <CsharpPlain size={50} style={{ color: uiColor }} />
+                        </div>
+                        <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem" }}>
+                            <ScalaOriginalWordmark size={50} style={{ color: uiColor }} />
                         </div>
                         <div style={{ border: '2px solid gray', padding: '1rem', display: 'inline-block', margin:"1.5rem" }}>
                             <Html5OriginalWordmark size={50} style={{ color: uiColor }} />
